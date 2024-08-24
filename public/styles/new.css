@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+* {
+  box-sizing: border-box;
+}
+body {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  transform: translate(-35%, -35%);
+  font-family: "Roboto";
+  color: #ede6e6;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + label span {
+  transform: scale(1.25);
+}
+input[type="radio"]:checked + label .red {
+  border: 2px solid #e83f3f;
+}
+input[type="radio"]:checked + label .orange {
+  border: 2px solid #f17b2b;
+}
+input[type="radio"]:checked + label .yellow {
+  border: 2px solid #fbbd08;
+}
+input[type="radio"]:checked + label .green {
+  border: 2px solid #21c547;
+}
+input[type="radio"]:checked + label .teal {
+  border: 2px solid #00b5ad;
+}
+input[type="radio"]:checked + label .blue {
+  border: 2px solid #3290d7;
+}
+input[type="radio"]:checked + label .violet {
+  border: 2px solid #6e43cb;
+}
+input[type="radio"]:checked + label .purple {
+  border: 2px solid #ab40cf;
+}
+input[type="radio"]:checked + label .pink {
+  border: 2px solid #e845a1;
+}
+label {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+label:hover span {
+  transform: scale(1.25);
+}
+label span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+label span.red {
+  background: #e83f3f;
+}
+label span.orange {
+  background: #f17b2b;
+}
+label span.yellow {
+  background: #fbbd08;
+}
+label span.green {
+  background: #21c547;
+}
+label span.teal {
+  background: #00b5ad;
+}
+label span.blue {
+  background: #3290d7;
+}
+label span.violet {
+  background: #6e43cb;
+}
+label span.purple {
+  background: #ab40cf;
+}
+label span.pink {
+  background: #e845a1;
+}
