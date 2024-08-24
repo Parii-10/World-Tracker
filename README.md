@@ -12,4 +12,4 @@ It will upload package.json and node_modules file.
 PROJECT DESCRIPTION:
 This project uses PostgreSQL database to store and retrieve data even after refereshing your file.
 
-Here, we took the help of ejs(Extended Javascript), Node.js, Rest API and PostgreSQL.
+Here, we took the help of ejs(Embedded Javascript), Node.js, Rest API and PostgreSQL.
